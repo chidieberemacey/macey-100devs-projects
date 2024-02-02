@@ -1,0 +1,49 @@
+header nav {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin: 0% 2%;
+}
+
+nav ul {
+    justify-content: space-between;
+    flex-basis: 30%;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.two h6, .two h2, .two p {
+    width: 40%;
+}
+
+.two {
+    display: flex;
+    margin: 5% 10%;
+    height: 300px;
+}
+
+.two img {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.four {
+    display: flex;
+    margin: 10% 10%;
+}
+
+.four a {
+    text-decoration: none;
+    color: black;
+}
+
+.four p {
+    margin-right: 20%;
+}
+

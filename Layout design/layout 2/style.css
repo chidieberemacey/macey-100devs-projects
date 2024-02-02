@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+header,footer {
+    border: 1px solid rgb(7, 179, 231);
+    height: 100px;
+    clear: both;
+}
+
+section {
+    border: 1px solid rgb(7, 179, 231);
+    height: 200px;
+}
+
+section.smaller {
+    height: 300px;
+    width: 40%;
+    float: left;
+}
+
+section.bigger {
+    height: 300px;
+    width: 60%;
+    float: left;
+}
+
+/* for mobile */
+@media (max-width: 480px) {
+    section.bigger, section.smaller{
+        width: 100%;
+        float: none;   
+    }
+}
+
+/* for tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    section.bigger {
+        width: 80%;
+        margin: 0% auto;
+        float: none;
+    }
+    section.smaller {
+        margin: 0% auto;
+        width: 60%;
+        float: none;
+    }
+}

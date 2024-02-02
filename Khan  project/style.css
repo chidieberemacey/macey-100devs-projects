@@ -1,0 +1,46 @@
+header nav > *{
+    float: left;
+    margin: 0 1%;
+    height: 20px;
+    width: 17%;
+}
+
+header nav {
+    border-bottom: 1px solid grey;
+    padding-bottom: 25px;
+}
+header nav li {
+    width: 20%;
+    float: left;
+    margin: 0 2%;
+    list-style: none;
+}
+
+main section, section+section {
+    float: left;
+    height: 400px;
+    width: 50%;
+    margin: 80px auto;
+    
+}
+
+main section nav li {
+    float: left;
+    list-style: none;
+    width: 20%;
+
+}
+
+header nav img {
+    width: fit-content;
+}
+
+main > section > img {
+    width: fit-content;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+h2 {
+    text-align: center;
+
+}

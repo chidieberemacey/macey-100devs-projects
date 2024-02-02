@@ -1,0 +1,56 @@
+header {
+    height: 35px;
+    background-color: black;
+    color: white;
+}
+
+.top li {
+    float: left;
+}
+
+li {
+    color: white;
+}
+
+.top img{
+    width: 60%;
+}
+.top li + li img {
+    width: 20%;
+}
+
+nav li {
+    width: 8%;
+    list-style: none;
+    color: white;
+}
+
+nav * {
+    color: white;
+}
+
+/* HEADER DONE **************/
+
+
+main > section {
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+main .four section {
+    width: 50%;
+    height: 150px;
+    float: left;
+}
+
+/**********NEXT SECTION **********/
+
+.three section {
+    width: 33%;
+    float: left;
+}
+
+.three section img {
+    width: 90%;
+}

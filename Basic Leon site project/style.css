@@ -1,0 +1,53 @@
+h1 {
+    color: white;
+}
+
+body {
+    background-color: skyblue;
+
+
+}
+
+.outside {
+    padding: 25px;
+    border: 5px solid limegreen;
+    margin: 0% auto;
+    width: 45%;
+    
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+
+.about {
+    color: white;
+}
+
+.green {
+    color: green;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 15vw;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}

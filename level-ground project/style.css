@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+header nav * {
+    height: 30px;
+    padding-top: 4px;
+}
+
+header nav button {
+    float: right;
+    width: 8%;
+    margin-top: 6px;
+    text-align: center;
+}
+
+header nav a {
+    float: left;
+    width: 10%;
+    height: fit-content;
+    color: white;
+}
+
+header nav img .image {
+    margin: 0% auto;
+    display: block;
+}
+
+main {
+    text-align: center;
+    margin: 0% auto;
+    background-color: #323952;
+    color: white;
+}
+
+main h1,main p {
+    margin: 3% 20%;
+}
+
+section > h3, section p {
+    text-align: center;
+    margin: 3% 30%;
+}
+
+.two section{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: silver;
+}
+
+.two section h4 {
+    text-align: center;
+}
+
+.two section button {
+    margin: 0% 40%;
+    width: 20%;
+    text-align: center;   
+}
+
+.two section img {
+    margin: 0% 40%;
+    width: 20%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+section button {
+    margin: 0% 40%;
+    width: 18%;
+    text-align: center;
+}
+.dot h3 {
+    margin-top: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+aside {
+    background-color: rgb(11, 8, 27);
+    margin-top: 4%;
+    padding: 10px 20px;
+    height: 180px;
+}
+
+aside * {
+    height: fit-content;
+    margin: 1% 0%;
+}
+
+aside h6 {
+    color: rgb(24, 79, 197);
+}
+
+span {
+    color: fuchsia;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+
+float: right;
+}
+
+aside > h6 .topleft, aside > img .topright, aside > hr {
+    clear: both;
+}
+
+aside > img {
+    float: right;
+    height: 20%;
+    margin-top: 0%;
+}
+aside .topleft {
+    float: left;
+    margin-top: 0%;
+}
+
+aside .left img {
+    height: 10%;
+    width: 20%;
+    padding: 0% 2px;
+}
